@@ -12,6 +12,8 @@
 		96F8C9E02CD080B30068D036 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8C9DF2CD080B30068D036 /* Item.swift */; };
 		96F8C9E22CD080B50068D036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F8C9E12CD080B50068D036 /* Assets.xcassets */; };
 		96F8C9E52CD080B50068D036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F8C9E42CD080B50068D036 /* Preview Assets.xcassets */; };
+		96F8C9EF2CD081950068D036 /* MainAnimeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8C9EE2CD081950068D036 /* MainAnimeListView.swift */; };
+		96F8C9F12CD081C20068D036 /* MainAnimeListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8C9F02CD081C20068D036 /* MainAnimeListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		96F8C9DF2CD080B30068D036 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		96F8C9E12CD080B50068D036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F8C9E42CD080B50068D036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96F8C9EE2CD081950068D036 /* MainAnimeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimeListView.swift; sourceTree = "<group>"; };
+		96F8C9F02CD081C20068D036 /* MainAnimeListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimeListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			children = (
 				96F8C9DB2CD080B30068D036 /* Anime_Tracker_PlusApp.swift */,
 				96F8C9DD2CD080B30068D036 /* ContentView.swift */,
+				96F8C9EB2CD080F80068D036 /* Anime */,
 				96F8C9DF2CD080B30068D036 /* Item.swift */,
 				96F8C9E12CD080B50068D036 /* Assets.xcassets */,
 				96F8C9E32CD080B50068D036 /* Preview Content */,
@@ -68,6 +73,31 @@
 				96F8C9E42CD080B50068D036 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96F8C9EB2CD080F80068D036 /* Anime */ = {
+			isa = PBXGroup;
+			children = (
+				96F8C9ED2CD081200068D036 /* Anime Detail */,
+				96F8C9EC2CD081120068D036 /* Anime List */,
+			);
+			path = Anime;
+			sourceTree = "<group>";
+		};
+		96F8C9EC2CD081120068D036 /* Anime List */ = {
+			isa = PBXGroup;
+			children = (
+				96F8C9EE2CD081950068D036 /* MainAnimeListView.swift */,
+				96F8C9F02CD081C20068D036 /* MainAnimeListVM.swift */,
+			);
+			path = "Anime List";
+			sourceTree = "<group>";
+		};
+		96F8C9ED2CD081200068D036 /* Anime Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Anime Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F8C9EF2CD081950068D036 /* MainAnimeListView.swift in Sources */,
 				96F8C9DE2CD080B30068D036 /* ContentView.swift in Sources */,
 				96F8C9E02CD080B30068D036 /* Item.swift in Sources */,
+				96F8C9F12CD081C20068D036 /* MainAnimeListVM.swift in Sources */,
 				96F8C9DC2CD080B30068D036 /* Anime_Tracker_PlusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
